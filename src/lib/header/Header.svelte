@@ -61,7 +61,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		--primary-color: #eeeeee;
 	}
 
 	svg {
@@ -71,7 +71,7 @@
 	}
 
 	path {
-		fill: var(--background);
+		fill: var(--primary-color);
 	}
 
 	ul {
@@ -83,7 +83,7 @@
 		justify-content: center;
 		align-items: center;
 		list-style: none;
-		background: var(--background);
+		background: var(--primary-color);
 		background-size: contain;
 	}
 
