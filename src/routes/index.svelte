@@ -7,7 +7,7 @@
 </svelte:head>
 
 <section>
-	<h1>Site under development...</h1>
+	<h1 class="text-black">Site under development...</h1>
 </section>
 
 <style>
@@ -24,6 +24,5 @@
 		font-family: 'Poppins', sans-serif;
 		font-weight: 500;
 		font-size: 10rem;
-		color: black;
 	}
 </style>
