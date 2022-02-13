@@ -7,7 +7,11 @@ module.exports = {
     "./src/**/*.ts"
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      "sans": ["Poppins", "system-ui", "sans-serif"]
+    },
+    extend: {
+    },
   },
   plugins: [],
 }

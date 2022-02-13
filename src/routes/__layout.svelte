@@ -55,13 +55,9 @@
 
 <style>
 	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
 		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
+		margin: 0;
+		padding:0;
 		box-sizing: border-box;
 	}
 </style>
