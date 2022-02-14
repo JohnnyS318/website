@@ -22,6 +22,9 @@
 			<li class:active={$page.url.pathname === "/contact"}>
 				<a sveltekit:prefetch href="/contact">Contact</a>
 			</li>
+			<li class:active={$page.url.pathname === "/blog"}>
+				<a href="/blog">Blog</a>
+			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
@@ -37,6 +40,9 @@
 	header {
 		display: flex;
 		justify-content: space-between;
+		position: absolute;
+		top: 0;
+		width: 100%;
 	}
 
 	.corner {
