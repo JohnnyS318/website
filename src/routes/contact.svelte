@@ -9,8 +9,8 @@
   }
 </script>
 
-<div>
-  <div class="header md:my-60">
+<section class="flex flex-col">
+  <div class="header flex justify-center items-center my-60 w-full">
     <Typewriter cascade on:done={() => done()} delay={50}>
       <h1 class="font-sans md:text-8xl font-semibold text-black">
         Hi i'm Jonas Schneider.
@@ -23,7 +23,7 @@
       <line class="draw" stroke-linejoin="round" stroke="black" fill="none" stroke-width="0.25"  x1="50" y1="0" x2="50" y2="100" />
     </svg>
   </div>
-</div>
+</section>
 
 <style>
   .anim{

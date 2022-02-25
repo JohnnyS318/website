@@ -5,7 +5,7 @@
   </script>
   
   <svelte:head>
-    <title>Home</title>
+    <title>Jonas Schneider</title>
   </svelte:head>
   
   <section>
